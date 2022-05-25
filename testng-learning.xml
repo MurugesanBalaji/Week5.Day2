@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <parameter name='URL' value="http://leaftaps.com/opentaps/"/>
+ 
+  <test name="Create - Chrome">
+   <parameter name='browserName' value="Chrome"/>
+    <classes>
+      <class name="week5.Day2.CreateLeads"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Create - Edge">
+   <parameter name='browserName' value="Edge"/>
+    <classes>
+      <class name="week5.Day2.CreateLeads"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

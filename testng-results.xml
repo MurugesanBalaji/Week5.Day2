@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-25T23:06:00 IST" name="Suite" finished-at="2022-05-25T23:06:39 IST" duration-ms="39702">
+    <groups>
+    </groups>
+    <test started-at="2022-05-25T23:06:00 IST" name="Create - Chrome" finished-at="2022-05-25T23:06:24 IST" duration-ms="24132">
+      <class name="week5.Day2.CreateLeads">
+        <test-method is-config="true" signature="starBrowser()[pri:0, instance:week5.Day2.CreateLeads@6e20b53a]" started-at="2022-05-25T23:06:00 IST" name="starBrowser" finished-at="2022-05-25T23:06:09 IST" duration-ms="9082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starBrowser -->
+        <test-method signature="runCreateLead()[pri:0, instance:week5.Day2.CreateLeads@6e20b53a]" started-at="2022-05-25T23:06:09 IST" name="runCreateLead" finished-at="2022-05-25T23:06:17 IST" duration-ms="8165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="endBrower()[pri:0, instance:week5.Day2.CreateLeads@6e20b53a]" started-at="2022-05-25T23:06:17 IST" name="endBrower" finished-at="2022-05-25T23:06:24 IST" duration-ms="6837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBrower -->
+      </class> <!-- week5.Day2.CreateLeads -->
+    </test> <!-- Create - Chrome -->
+    <test started-at="2022-05-25T23:06:24 IST" name="Create - Edge" finished-at="2022-05-25T23:06:39 IST" duration-ms="15537">
+      <class name="week5.Day2.CreateLeads">
+        <test-method is-config="true" signature="starBrowser()[pri:0, instance:week5.Day2.CreateLeads@130d63be]" started-at="2022-05-25T23:06:24 IST" name="starBrowser" finished-at="2022-05-25T23:06:30 IST" duration-ms="6522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starBrowser -->
+        <test-method signature="runCreateLead()[pri:0, instance:week5.Day2.CreateLeads@130d63be]" started-at="2022-05-25T23:06:30 IST" name="runCreateLead" finished-at="2022-05-25T23:06:39 IST" duration-ms="8620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="endBrower()[pri:0, instance:week5.Day2.CreateLeads@130d63be]" started-at="2022-05-25T23:06:39 IST" name="endBrower" finished-at="2022-05-25T23:06:39 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endBrower -->
+      </class> <!-- week5.Day2.CreateLeads -->
+    </test> <!-- Create - Edge -->
+  </suite> <!-- Suite -->
+</testng-results>
